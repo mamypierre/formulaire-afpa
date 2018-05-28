@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ma page</title>
+        <link rel="stylesheet" type="text/css" href="css/premier.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="tout">
+            <p><img src="img/logo.jpeg"> </p>
+            <div id="formul">
+                <form action="PHPMailer-master/test.php" method="post" enctype="multipart/form-data">	
+                    <div class="Bloc1" >
+                        <input class="Nom_Prenom" type="text" name="Nom_Prenom" placeholder=" Nom-Prenom"> <br>
+                        <input type="email" name="courriel" placeholder="courriel"> <br>
+                        <input type="phone" name="telephone" placeholder="Telephone"> <br>
+                        <select name="poste" >
+                            <option>Vous êtes</option>
+                            <option value="chef" > chef de projet</option>
+                            <option >Developpeur</option>
+                            <option>Directeur des systèmes informatique</option>
+                        </select> 
+                        <br>				
+                        <textarea >votre comentaire </textarea>
+
+                        <input type="file" name="fichier"> 
+
+                    </div>
+
+                    <div class="Bloc2" >
+                        <p>Quelle est la meilleure manière de vous <br> contacter ?</p>
+                        <input type="radio" value="telephone" name="contacte"><label for="contacte">Télephone</label>
+                        <input type="radio" value="courriel" name="contacte"><label for="contacte" >Couriel</label> <br>
+                        <p>Jours de la semaine où vous êtes disponible : </p>
+                        <input type="checkbox" value="Lundi" name="jourOuvrable[]"> <label >Lundi</label><br>
+                        <input type="checkbox" value="Mardi" name="jourOuvrable[]"> <label >Mardi</label><br>
+                        <input type="checkbox" value="Mercredi" name="jourOuvrable[]"> <label >Mercredi</label><br>
+                        <input type="checkbox" value="Jeudi" name="jourOuvrable[]"> <label >Jeudi</label><br>
+                        <input type="checkbox" value="Vendredi" name="jourOuvrable[]"> <label >Vendredi</label><br>
+                        <p>Heure appropriée pour un rendez-vous :</p> <br>
+                        <input type="checkbox" value="Matin" name="heurApro[]"> <label >Matin</label><br>
+                        <input type="checkbox" value="Après-midi" name="heurApro[]"> <label >Après-midi</label>
+
+
+                    </div>
+                    <br>
+                    <button type="submit" >Envoyer</button>
+
+
+                </form>
+            </div>
+        </div>	
+
+    </body>
+</html>

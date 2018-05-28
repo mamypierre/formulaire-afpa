@@ -1,0 +1,39 @@
+.tout
+	{
+		/* background-color: pink ;*/
+		width: 50% ;
+		
+		margin: auto;
+	
+	}
+.Bloc1 
+	{
+		/*background-color: red ;*/
+		display: block;
+		width: 50% ;
+		float: left;
+		padding-top: 20px;
+		
+		
+	}
+.Bloc2 
+	{
+		/* background-color: blue ; */
+		width: 50% ;
+		float: left;
+		
+	}
+#formul
+	{
+		border-style: solid;
+		border-width: 2px ;
+		border-radius: 5px ;
+		border-color: #90D1C4 ;
+	}
+button
+	{
+		/*background-color: pink ;*/
+		float: none;
+		clear: both; 
+		text-align: center;
+	}
